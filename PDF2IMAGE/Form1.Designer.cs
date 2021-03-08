@@ -34,7 +34,6 @@ namespace PDF2IMAGE
             this.button_generate = new System.Windows.Forms.Button();
             this.textbox_selectedPDF = new System.Windows.Forms.TextBox();
             this.textbox_output = new System.Windows.Forms.TextBox();
-            this.label_PageCount = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
@@ -87,15 +86,6 @@ namespace PDF2IMAGE
             this.textbox_output.TabIndex = 4;
             this.textbox_output.TextChanged += new System.EventHandler(this.textBoxOutput_TextChanged);
             // 
-            // label_PageCount
-            // 
-            this.label_PageCount.AutoSize = true;
-            this.label_PageCount.Location = new System.Drawing.Point(12, 94);
-            this.label_PageCount.Name = "label_PageCount";
-            this.label_PageCount.Size = new System.Drawing.Size(96, 15);
-            this.label_PageCount.TabIndex = 5;
-            this.label_PageCount.Text = "label_PageCount";
-            // 
             // progressBar1
             // 
             this.progressBar1.Location = new System.Drawing.Point(12, 141);
@@ -110,7 +100,6 @@ namespace PDF2IMAGE
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(380, 171);
             this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.label_PageCount);
             this.Controls.Add(this.textbox_output);
             this.Controls.Add(this.textbox_selectedPDF);
             this.Controls.Add(this.button_generate);
@@ -130,7 +119,6 @@ namespace PDF2IMAGE
         private System.Windows.Forms.Button button_generate;
         private System.Windows.Forms.TextBox textbox_selectedPDF;
         private System.Windows.Forms.TextBox textbox_output;
-        private System.Windows.Forms.Label label_PageCount;
         private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
